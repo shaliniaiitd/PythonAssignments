@@ -1,0 +1,16 @@
+l3 = [40, 10, 25, 15, 30, 10, 20]
+
+print("l3 contents", l3, "l3 is a", type(l3))
+print("length of l3", len(l3))
+print("first element in l3", l3[0])
+print("last element in l3", l3[-1])
+print("first 3 elements in l3", l3[:3])
+print("last 4 elements in l3", l3[-4:])
+print("Reverse of l3", l3[::-1])
+print("-"*40)
+print("10 in l3", 10 in l3)
+print("10 not in l3", 10 not in l3)
+print("400 not in l3", 400 not in l3)
+print("-"*40)
+print("count of 10 in l3", l3.count(10))
+print("index of 10 in l3", l3.index(10))
